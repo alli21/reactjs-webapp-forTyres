@@ -1,0 +1,239 @@
+.main-nav {
+  width: 100% !important;
+  height: 120px;
+font-weight: 600;
+  display: grid;
+  grid-template-columns: 4rem 1fr 2fr 1fr 4rem;
+  box-shadow: rgba(81, 81, 94, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-byeoj0).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-byeoj0).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected, :where(.css-dev-only-do-not-override-byeoj0).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected {
+ color: #272729;
+}
+:where(.css-dev-only-do-not-override-byeoj0) a{
+  transition: none;
+  color:none;
+} 
+a{
+  font-weight: 600 !important;
+  font-family: inherit!important;
+}
+.ant-drawer-body {
+  margin-top: 20px;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-layout-header {
+  line-height: 50px;
+}
+.logo {
+  display: grid;
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.nav-list {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-layout-header {
+  background-color: #ebc934;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-item {
+  border-radius: 16px;
+}
+.dropdown {
+  padding: 0px 12px;
+}
+.menu-item {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+
+  color: #000;
+}
+
+.phone-num {
+  padding: 0px 16px !important;
+}
+.phone-num:hover {
+  background-color: #272729 !important;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 16px !important;
+
+  padding: 0px 16px !important;
+}
+
+.ant-menu-item {
+  padding: 0 20px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.ant-menu-horizontal,
+.ant-menu-item::after,
+.ant-menu-submenu::after {
+  border: none !important;
+}
+.ant-menu-item:hover {
+  background-color: #272729!important;
+  color: white !important;
+  border-radius: 16px !important;
+}
+.phone-icon {
+  padding: 0px 7px;
+}
+
+.contact-number {
+  grid-column: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  color: blue;
+  /* background-color: #fff; */
+}
+.instagram {
+  color: #c32aa3;
+  /* background-color: #fff; */
+}
+.whatsapp {
+  color: #25d366;
+  /* background-color: #fff; */
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.social-media:hover {
+  cursor: pointer;
+}
+.vertical-menu{
+  background-color: #eb6434;
+}
+.social-media > *:not(:last-child) {
+  font-size: 24px;
+  margin-right: 12px;
+}
+.social-media > *:last-child {
+  margin-right: 0;
+  font-size: 24px;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-menu .ant-menu-item {
+  border-radius: 16px;
+  text-align: center;
+}
+.ant-menu{
+  background-color: transparent;
+}
+
+@media (max-width: 1300px) {
+  .phone-text {
+    display: none;
+  }
+  .phone-icon {
+  }
+}
+@media (max-width: 1060px) {
+  .phone-num,
+  .facebook,
+  .whatsapp,
+  .instagram,
+  .phone-icon {
+    display: none;
+  }
+}
+@media (max-width: 1027px) {
+  .facebook,
+  .whatsapp,
+  .instagram,
+  .phone-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 1027px) {
+  .main-nav {
+    height: auto;
+    width: 100% !important;
+    position: relative;
+    align-items: center;
+    grid-template-columns: 1rem 3fr 4rem 1rem;
+  }
+
+  .facebook,
+  .whatsapp,
+  .instagram,
+  .phone-icon {
+    display: none;
+  }
+
+  .nav-link {
+    width: 100%;
+
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 1027px) {
+  .main-nav {
+    width: 100% !important;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+@media (min-width: 1027px) {
+  .menu-button {
+    display: none;
+  }
+}
+@media (max-width: 1348px) {
+  .phone-text {
+    display: none;
+  }
+}
+@media (min-width: 400px) {
+  .main-nav {
+    width: 100% !important;
+  }
+}
+@media (max-width: 376px) {
+  .main-nav {
+    height: auto;
+    width: 100% !important;
+    position: relative;
+    align-items: center;
+    grid-template-columns: 0rem 3fr 2rem 1rem;
+  }
+}
+@media (max-width: 414px) {
+  .main-nav {
+    height: auto;
+    width: 100% !important;
+    position: relative;
+    align-items: center;
+    grid-template-columns: 0rem 3fr 2rem 1rem;
+  }
+}
+@media (max-width: 360px) {
+  .main-nav {
+    height: auto;
+    width: 100% !important;
+    position: relative;
+    align-items: center;
+    grid-template-columns: 0rem 2fr 1rem 1rem;
+  }
+}
