@@ -1,5 +1,5 @@
 # Preview
-![Homepage Preview](public\homepage.png)
+![Homepage Preview](public/homepage.png)
 
 
 In the project directory, you can run:
